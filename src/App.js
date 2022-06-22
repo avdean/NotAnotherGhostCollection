@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { slide as Menu } from 'react-burger-menu';
 import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
@@ -174,7 +173,7 @@ function App() {
       .then((receipt) => {
         console.log(receipt);
         setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit NFTKey to view it.`
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit TofuNFT to view it.`
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -230,12 +229,6 @@ function App() {
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
-      <Menu>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="contact" className="menu-item" href="/contact">Contact</a>
-        <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
-      </Menu>
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
