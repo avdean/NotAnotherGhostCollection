@@ -1,0 +1,17 @@
+{
+  "CONTRACT_ADDRESS": "0x62dd99fa95065672a6c961142f6f464e33ab4fb4",
+  "SCAN_LINK": "https://ftmscan.com/address/0x62dd99fa95065672a6c961142f6f464e33ab4fb4",
+  "NETWORK": {
+    "NAME": "Fantom",
+    "SYMBOL": "FTM",
+    "ID": 250
+  },
+  "NFT_NAME": "Not Another GHOST Collection",
+  "SYMBOL": "NAGC",
+  "MANUAL_COST" : 0.1,
+  "MAX_SUPPLY": 10000,
+  "GAS_LIMIT": 1000000,
+  "MARKETPLACE": "To Add",
+  "MARKETPLACE_LINK": "TO BE ADDED",
+  "SHOW_BACKGROUND": false
+}
