@@ -4,6 +4,7 @@ import { connect } from "./redux/blockchain/blockchainActions";
 import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
+import Menu from "./Menu/Menu";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -223,6 +224,7 @@ function App() {
 
   return (
     <s.Screen>
+      <Menu/>
       <s.Container
         flex={1}
         ai={"center"}
