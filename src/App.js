@@ -293,7 +293,7 @@ function App() {
                   style={{ textAlign: "center", color: "var(--primary-text)" }}
                 >
                 <p>Not Another Ghost Collection features dynamic pricing.<br></br><br></br></p>
-                <p>The first 1000 ghosts cost 0.01 FTM, the next 1000-2000 costs 0.1 FTM, the next 2000-3000 costs 1 FTM,  the next 3000-5000 costs 5 FTM, the next 5000-7000 costs 10 FTM, the next 7000-8000 costs 50 FTM with the last 2000 ghosts costing 100 FTM.</p>
+                <p>You can find out the exact specifics of NAGC's minting prices in the <a href="https://not-another-ghost-collection.gitbook.io/nagc-documentation/pricing-and-use-cases" target="_blank">Documentation</a>.</p>
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
