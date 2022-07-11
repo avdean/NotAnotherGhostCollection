@@ -293,7 +293,7 @@ function App() {
                   style={{ textAlign: "center", color: "var(--primary-text)" }}
                 >
                 <p>Not Another Ghost Collection features dynamic pricing.<br></br></p>
-                <p>You can find out the exact specifics of NAGC's minting prices in the <a href="https://not-another-ghost-collection.gitbook.io/nagc-documentation/pricing-and-use-cases" target="_blank">Documentation</a>.<br></br></p>
+                <p>You can find out the exact specifics of NAGC's minting prices in the <a href="https://vagranttea.gitbook.io/nagc/pricing-and-use-cases" target="_blank">Documentation</a>.<br></br></p>
                 <p>Currently price of individual mint is {data.cost / 100000000000000000} FTM.</p>
                 </s.TextTitle>
                 <s.SpacerXSmall />
